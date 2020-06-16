@@ -1,10 +1,10 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import Header from './components/Header.js';
-import Footer from './components/Footer.js';
-import Counter from './components/Counter.js';
-import './components/app.scss'
 
+import Header from './components/header/header.js';
+import Footer from './components/footer/footer.js';
+import Counter from './components/counter/counter.js';
+
+import './app.scss';
 
 class App extends React.Component {
   render() {
